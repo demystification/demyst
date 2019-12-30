@@ -1,0 +1,39 @@
+body {
+    background: black;
+    text-align:  center;
+    font-size: medium;
+    font-family: monospace;
+}
+
+figure,
+nav {
+    margin: auto;
+}
+
+figure {
+    max-width: 50%;
+}
+
+nav {
+    max-width: 40%;
+}
+
+figure img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li:not(:last-of-type) {
+    padding-bottom: .5rem;
+}
+
+nav a {
+    color: white;
+}
